@@ -27,14 +27,14 @@ discord.py-boilerplate/
    ```
 
 3. Activate the Virtual Environment
-   - Windows:
-     ```bash
-     venv\Scripts\activate
-     ```
-   - macOS/Linux:
-     ```bash
-     source venv/bin/activate
-     ```
+    Windows:
+    ```bash
+    venv\Scripts\activate
+    ```
+    macOS/Linux:
+    ```bash
+    source venv/bin/activate
+    ```
 
 4. Install
    ```bash
