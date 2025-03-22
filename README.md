@@ -17,7 +17,7 @@ discord.py-boilerplate/
 ## Setup Instructions
 1. Clone
    ```bash
-   git clone https://github.com/your-username/discord.py-boilerplate.git
+   git clone https://github.com/bianchi-ed/discord.py-boilerplate.git
    cd discord.py-boilerplate
    ```
 
