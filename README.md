@@ -41,7 +41,8 @@ discord.py-boilerplate/
    pip install -r requirements.txt
    ```
 
-5. Token:
+5. Token
+
    Open `bot.py` and replace `'YOUT_BOT_TOKEN'` with your actual bot token from discord.dev
 
 6. Run:
