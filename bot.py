@@ -25,11 +25,11 @@ async def on_ready():
     print(f"Logged in as {bot.user.name}")
     await load_cogs()
     try:
-        # Synchronize slash commands with Discord
+        # sync slash commands
         synced = await bot.tree.sync()
         print(f"Synced {len(synced)} commands.")
     except Exception as e:
         print(f"Failed to sync commands: {e}")
 
 # run
-bot.run('YOUR_BOT_TOKEN')
+bot.run('YOUT_BOT_TOKEN')
