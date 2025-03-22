@@ -7,7 +7,7 @@ A boilerplate project for creating Discord bots using the `discord.py` library.
 ```
 discord.py-boilerplate/
 ├── cogs/             # Cogs
-│   ├── server.py     # example cog with server info commands
+│   ├── server.py     # Example cog with server info commands
 │   ├── events.py     # Event handling cog
 ├── README.md         # You are reading this
 ├── requirements.txt  # Dependencies
@@ -27,6 +27,7 @@ discord.py-boilerplate/
    ```
 
 3. Activate the Virtual Environment
+
     Windows:
     ```bash
     venv\Scripts\activate
