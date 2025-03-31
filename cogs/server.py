@@ -17,22 +17,6 @@ class Server(commands.Cog):
         embed.set_thumbnail(url=guild.icon.url if guild.icon else None)
         await interaction.response.send_message(embed=embed)
 
-    # available roles
-    @app_commands.command(name="roles", description="List all roles in the server.")
-    async def roles(self, interaction: discord.Interaction):
-        guild = interaction.guild
-        roles = [role.name for role in guild.roles if role.name != "@everyone"]
-        roles_list = ", ".join(roles) if roles else "No roles available."
-        await interaction.response.send_message(f"Roles in this server: {roles_list}")
-
-    # server boosts
-    @app_commands.command(name="boosts", description="Get the number of server boosts and boost level.")
-    async def boosts(self, interaction: discord.Interaction):
-        guild = interaction.guild
-        await interaction.response.send_message(
-            f"This server has {guild.premium_subscription_count} boosts and is at level {guild.premium_tier}."
-        )
-
     # new invite link
     @app_commands.command(name="invite", description="Generate an invite link for the server.")
     async def invite(self, interaction: discord.Interaction):
