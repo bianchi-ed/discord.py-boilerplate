@@ -1,6 +1,6 @@
 # Discord.py Boilerplate
 
-A starter template for creating Discord bots using the `discord.py` library.
+A modular starter template for building Discord bots with the `discord.py` library.
 
 ## Project Structure
 
