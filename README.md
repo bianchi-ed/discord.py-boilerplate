@@ -18,8 +18,8 @@ discord.py-boilerplate/
 
 1. **Clone**
    ```bash
-   git clone https://github.com/bianchi-ed/discord.py-boilerplate.git
-   cd discord.py-boilerplate
+   git clone https://github.com/bianchi-ed/discord.py-template
+   cd discord.py-template
    ```
 
 2. **Create and Activate a Virtual Environment**
