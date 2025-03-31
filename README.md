@@ -23,16 +23,17 @@ discord.py-boilerplate/
    ```
 
 2. **Create and Activate a Virtual Environment**
-   - Windows:
-     ```bash
-     python -m venv venv
-     venv\Scripts\activate
-     ```
-   - macOS/Linux:
-     ```bash
-     python -m venv venv
-     source venv/bin/activate
-     ```
+
+   Windows:
+   ```bash
+   python -m venv venv
+   venv\Scripts\activate
+   ```
+   macOS/Linux:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate
+   ```
 
 3. **Install Dependencies**
    ```bash
@@ -40,6 +41,7 @@ discord.py-boilerplate/
    ```
 
 4. **Token**
+
    Open `bot.py` and replace `'YOUT_BOT_TOKEN'` with your bot token from [Discord Developer Portal](https://discord.com/developers/applications).
 
 5. **Run**
